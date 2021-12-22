@@ -45,7 +45,7 @@ for ii=1:length(dod)
     ml     = dod(ii).GetMeasList();
     y      = dod(ii).GetDataTimeSeries();
     
-%     [dpf_xlsx, file_path] = uigetfile('*.xlsx','½Ğ¿ï¾Ü±ı¨Ï¥Îªºpathlength¤§excelÀÉ®×');
+%     [dpf_xlsx, file_path] = uigetfile('*.xlsx','è«‹é¸æ“‡æ¬²ä½¿ç”¨çš„pathlengthä¹‹excelæª”æ¡ˆ');
 %     DPF = xlsread([file_path dpf_xlsx]);
     DPF = xlsread('dpf_D1D2.xlsx');
     
